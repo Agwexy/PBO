@@ -1,8 +1,8 @@
 public class App {
+    // Main Program
     public static void main(String[] args) {
         // Variabel
         int angka = 10;
-        double nilai = 3.14;
         char karakter = 'A';
         boolean benar = true;
 
@@ -17,9 +17,9 @@ public class App {
 
         // If statement
         if (angka > 5) {
-            System.out.println("Angka lebih besar dari 5.");
+            System.out.println("Angka lebih besar dari 5");
         } else {
-            System.out.println("Angka tidak lebih besar dari 5.");
+            System.out.println("Angka tidak lebih besar dari 5");
         }
 
         // While loop
@@ -46,16 +46,16 @@ public class App {
         java.util.Scanner input = new java.util.Scanner(System.in);
         System.out.print("Masukkan sebuah angka: ");
         int inputAngka = input.nextInt();
-        System.out.println("Anda memasukkan angka: " + inputAngka);
+        System.out.println("Angka =yang dimasukan: " + inputAngka);
 
         // Output
-        System.out.println("Halo, dunia!");
+        System.out.println("Hello World!");
 
         // Comment
-        // Ini adalah contoh komentar satu baris
+        // Ini adalah komentar satu baris
 
         /*
-        Ini adalah contoh komentar
+        Ini adalah komentar
         multi-baris
         */
     }
